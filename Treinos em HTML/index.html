@@ -7,7 +7,7 @@
     <script src="https://kit.fontawesome.com/5e95f54d10.js" crossorigin="anonymous"></script>
     <title>Los Burgues Lanches</title>
     <style>
-        header, img {
+        header, #logo {
             background: #000;
             display: block;
             margin-left: auto;
@@ -21,6 +21,11 @@
             color: white;
             font-size: 20px;
             padding-left: 30px;
+
+        }
+        #icons {
+            display: inline;
+            font-size: 25px;
 
         }
         #tite {
@@ -37,17 +42,20 @@
         }
         .fa-instagram{
             color: rgb(230, 4, 42);
-            padding-left: 30px;
+        }
+        h6{
+            color: white;
+            text-align: center;
+            font-size: 15px;
         }
 
     </style>
 </head>
 <body>
     <header>
-        <img src="./los_burguersxcf.png" alt="Los Burguers Logo"><hr>
+        <img id="logo" src="./los_burguersxcf.png" alt="Los Burguers Logo"><hr>
     </header>
     
-
         <span id="tite"><i class="fas fa-hamburger"></i> COMBOS <i class="fas fa-hamburger"></i></span>
         
     <div id="options">
@@ -77,14 +85,25 @@
             <p>Guaraná Antarctica 1,5l<span id="price">R$ 6,00</span></p>
     </div>
         
-    <div id="rodape">
-                <a href="https://web.whatsapp.com/send?phone=5511971644272"><i class="fa fa-whatsapp"></i>(11)971644272</a>
-
-                <a href="https://www.instagram.com/losburguers.mogi/"><i class="fab fa-instagram"> LOS BURGUERS</i>
-                </a>
-                <a href="https://www.ifood.com.br/delivery/mogi-das-cruzes-sp/los-burguers-mogi-moderno/f843ff65-6168-4cb4-980f-970136287d94">
-                    <img src="ifood-logo-01.png" alt="Ifood" width="70" height="40">
-                </a>
+    <div id="icons">
+        <div><img src="ifood-logo-01.png" alt="Ifood" height="26" width="35">
+            <a href="https://www.ifood.com.br/delivery/mogi-das-cruzes-sp/los-burguers-mogi-moderno/f843ff65-6168-4cb4-980f-970136287d94" target="_blank">
+                Atendemos Pelo Ifood</a>
+        </div>
+        <div>
+            <a href="https://web.whatsapp.com/send?phone=5511971644272" target="_blank" ><i class="fa fa-whatsapp"></i>(11)971644272
+            </a>
+        </div>
+        <div>
+            <a href="https://www.instagram.com/losburguers.mogi/" target="_blank"><i class="fab fa-instagram"> LOS BURGUERS</i>
+            </a>
+        </div>
     </div>
+
+    <footer>
+        <hr>
+        <h6 color="#FFF" >Site Desenvolvido por <a href="mailto:vitsanches@live.com">Vitor Sanches </a> - </h6>
+
+    </footer>
 </body>
 </html>
